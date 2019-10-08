@@ -3,46 +3,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /*
-Modify your program to handle different cases when the given expression has an invalid format. The program should print "Invalid expression" in such cases.
-The program must never throw the NumberFormatException or any other exception.
 
-        If a user enters an invalid command, the program must print "Unknown command".
-
-        All messages must be printed without quotes.
-
-        Do not forget to write methods to decompose your program.
-
-        Input/Output example
-
-        8 + 7 - 4
-        11
-        abc
-        Invalid expression
-        123+
-        Invalid expression
-        +15
-        15
-        18 22
-        Invalid expression
-
-        -22
-        -22
-        22-
-        Invalid expression
-        /go
-        Unknown command
-        /exit
-        Bye!
-        The program should not stop until the user enters the /exit command (like before).
-
-        "abc\n123+\n+15\n18 22\n\n-22\n22-\n/exit",
-                        "Invalid expression\n" +
-                                "Invalid expression\n" +
-                                "15\n" +
-                                "Invalid expression\n" +
-                                "-22\n" +
-                                "Invalid expression\n" +
-                                "Bye!"
 */
 
 
